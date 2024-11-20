@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Portfolio</title>
+    <link rel="icon" href="images/LOGO.webp">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <button class="close-btn" id="closeBtn">&times;</button>
+      <nav class="sidebar" id="sidebar">
+        <h1 class="logo">My Portfolio</h1>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="open-btn" id="openBtn">&#9776;</button>
+    </header>
+  
+
+    <section id="hero">
+      <div class="hero-content">
+        <img src="images/soham.jpg" alt="" />
+        <h2>Hello, I'm <span id="typedText"></span></h2>
+        <p>I'm a passionate Frontend Developer</p>
+        <a href="#contact" class="btn">Hire Me</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2 class="about-header">About Me</h2>
+      <p class="about-para">
+        "I'm a passionate developer with experience in building modern,
+        responsive websites and applications. I love to solve problems and
+        create user-friendly interfaces."
+      </p>
+      <div class="social-media-links">
+        <span>
+          <i class="ri-instagram-fill"></i>
+          <a href="https://www.instagram.com/i_m_soham45/" target="_blank"
+            >@i_m_soham45</a
+          >
+        </span>
+        <span>
+          <i class="ri-facebook-fill"></i>
+          <a href="https://www.facebook.com/soham.chitrao/" target="_blank"
+            >Soham Chitrao</a
+          >
+        </span>
+        <span>
+          <i class="ri-twitter-x-fill"></i>
+          <a href="https://x.com/i_m_Soham1845" target="_blank"
+            >@i_m_Soham1845</a
+          >
+        </span>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <span><h2>My Work</h2></span>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="images/deals-1.png" alt="" />
+          <h3>Car Rental</h3>
+        </div>
+        <div class="portfolio-item">
+          <img src="images/Clock & Stopwatch.webp" alt="" />
+          <h3>Clock & Stopwatch</h3>
+        </div>
+      </div>
+    </section>
+
+    <div class="skill-contact-container">
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>React</li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+          <span>
+            <input type="text" id="name" placeholder="Your Name" required />
+            <input type="email" id="email" placeholder="Your Email" required />
+          </span>
+          <textarea id="message" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </section>
+    </div>
+
+    <footer>
+      <p>© 2024 Soham Chitrao.All rights reserved.</span></p>
+      <div class="social-links">
+        <span><i class="ri-github-fill"></i></span>
+        <a href="https://github.com/paradioxicalsoham45" target="_blank">Github</a>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
